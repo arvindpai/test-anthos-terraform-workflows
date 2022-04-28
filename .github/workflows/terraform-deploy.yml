@@ -18,7 +18,7 @@ jobs:
       max-parallel: 1
       matrix:
          include:
-           - environment: config_sync_part_1
+           - environment: config_sync_part_1/terraform
              runner: ubuntu-latest
           #  - environment: prod
           #    runner: ubuntu-18.04
