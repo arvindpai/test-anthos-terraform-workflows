@@ -18,10 +18,10 @@ jobs:
       max-parallel: 1
       matrix:
          include:
-           - environment: test
+           - environment: config_sync_part_1
              runner: ubuntu-latest
-           - environment: prod
-             runner: ubuntu-18.04
+          #  - environment: prod
+          #    runner: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - uses: hashicorp/setup-terraform@v1
